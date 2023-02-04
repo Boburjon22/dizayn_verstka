@@ -1,0 +1,270 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+:root {
+    --primary-bg: #EEEFF1;
+    --secondary: #34547A;
+    --background-bg: #fff;
+    --background-bg1: #34547C;
+}
+
+.hero {
+    background-color: var(--primary-bg);
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    font-family: Roboto;
+}
+nav {
+    display: flex;
+    gap: 42px;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+nav a:hover {
+    color: var(--secondary);
+}
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 0;
+}
+
+.hero__text {
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    line-height: 30px;
+}
+
+.hero__text p {
+    color: #727272;
+}
+
+.button {
+    padding: 20px 41px;
+    background-color: var(--secondary);
+    width: fit-content;
+    color: #fff;
+}
+
+.image--pl {
+    padding-left: 50px;
+}
+
+.hero1 {
+    background-color: var(--backround-bg);
+
+}
+.container1 {
+    width: 1300px;
+    padding: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__text1 {
+    width: 500px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 50px;
+    line-height: 30px;
+}
+
+.hero__text1 p {
+    color: #727272;
+}
+
+.hero2 {
+    background-color: var(--background-bg1);
+}
+
+.container2 {
+    width: 1300px;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__text2 {
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+}
+
+.container3 {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.hero__content1{
+    width: 940px;
+    margin: 0 auto;
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__textb {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero__textb h1 {
+    color: #000;
+}
+
+.hero__textb p {
+    color: #727272;
+}
+
+.skill-progress {
+    --procent: 0%;
+    width: 400px;
+    height: 4px;
+    display: flex;
+}
+
+.active {
+    width: var(--procent);
+    height: 100%;
+    background-color: #4CAF50;
+}
+
+.passive {
+    width: calc(100% - var(--procent));
+    height: 100%;
+    background-color: #000;
+}
+
+.containerb {
+    width: 1349px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 700px;
+    gap: 30px;
+}
+
+.container5 {
+    width: 1349px;
+    height: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project__imaget {
+    display: inline-block;
+    width: 25%;
+    height: 25vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.project__imaget .img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.project__imaget .imaget--onhover {
+    width: 100%;
+    height: 100%;
+    background-color: #34547AC0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s linear;
+    transform: scale(0);
+}
+
+.project__imaget:hover .imaget--onhover {
+    transform: scale(1);
+}
+
+.container6 {
+    width: 1349px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container7 {
+    width: 1349px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container8 {
+    max-width: 1350px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content3 {
+    width: 500px;
+    height: 280px;
+}
